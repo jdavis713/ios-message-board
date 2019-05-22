@@ -14,6 +14,8 @@
 		8B1964472295DFF5001D92F6 /* MessageThreadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1964462295DFF5001D92F6 /* MessageThreadTableViewController.swift */; };
 		8B1964492295E1FB001D92F6 /* MessageThreadDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1964482295E1FB001D92F6 /* MessageThreadDetailTableViewController.swift */; };
 		8B19644B2295E352001D92F6 /* MessageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B19644A2295E352001D92F6 /* MessageDetailViewController.swift */; };
+		8B19644E2295E60F001D92F6 /* MessageThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B19644D2295E60F001D92F6 /* MessageThread.swift */; };
+		8B1964502295ED13001D92F6 /* MessageThreadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B19644F2295ED13001D92F6 /* MessageThreadController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		8B1964462295DFF5001D92F6 /* MessageThreadTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageThreadTableViewController.swift; sourceTree = "<group>"; };
 		8B1964482295E1FB001D92F6 /* MessageThreadDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageThreadDetailTableViewController.swift; sourceTree = "<group>"; };
 		8B19644A2295E352001D92F6 /* MessageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDetailViewController.swift; sourceTree = "<group>"; };
+		8B19644D2295E60F001D92F6 /* MessageThread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageThread.swift; sourceTree = "<group>"; };
+		8B19644F2295ED13001D92F6 /* MessageThreadController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageThreadController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +64,24 @@
 			children = (
 				8B1964342295DDE4001D92F6 /* AppDelegate.swift */,
 				8B1964382295DDE4001D92F6 /* Main.storyboard */,
-				8B1964462295DFF5001D92F6 /* MessageThreadTableViewController.swift */,
-				8B1964482295E1FB001D92F6 /* MessageThreadDetailTableViewController.swift */,
-				8B19644A2295E352001D92F6 /* MessageDetailViewController.swift */,
+				8B19644D2295E60F001D92F6 /* MessageThread.swift */,
+				8B19644F2295ED13001D92F6 /* MessageThreadController.swift */,
+				8B19644C2295E5F3001D92F6 /* View Controllers */,
 				8B19643B2295DDEA001D92F6 /* Assets.xcassets */,
 				8B19643D2295DDEA001D92F6 /* LaunchScreen.storyboard */,
 				8B1964402295DDEA001D92F6 /* Info.plist */,
 			);
 			path = "Message Board";
+			sourceTree = "<group>";
+		};
+		8B19644C2295E5F3001D92F6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B1964462295DFF5001D92F6 /* MessageThreadTableViewController.swift */,
+				8B1964482295E1FB001D92F6 /* MessageThreadDetailTableViewController.swift */,
+				8B19644A2295E352001D92F6 /* MessageDetailViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +158,9 @@
 				8B1964352295DDE4001D92F6 /* AppDelegate.swift in Sources */,
 				8B19644B2295E352001D92F6 /* MessageDetailViewController.swift in Sources */,
 				8B1964492295E1FB001D92F6 /* MessageThreadDetailTableViewController.swift in Sources */,
+				8B19644E2295E60F001D92F6 /* MessageThread.swift in Sources */,
 				8B1964472295DFF5001D92F6 /* MessageThreadTableViewController.swift in Sources */,
+				8B1964502295ED13001D92F6 /* MessageThreadController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
